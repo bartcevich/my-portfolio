@@ -53,7 +53,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
           <span className="viewWork">View Work &#8594;</span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
-          <img src={image} alt="Laptop displaying the application" />
+          <img src={image} alt="Starting page project" />
         </div>
       </div>
 
@@ -128,3 +128,24 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
 };
 
 export default Project;
+// {
+  // "title": "News",
+  // "image": "./projectImages/P1.png",
+  // "description": "Hey there, revheads! Say hello to P1, your one-stop virtual hangout for all things F1. We've got the freshest scoop, live standings – you name it. But guess what? There's more! Brace yourself for the coolest card game in town, where being an F1 guru is your golden ticket to winning big.\nBy the way, I'm the styling and animation wizard behind the scenes, conjuring up that sleek and eye-catching look you're loving. And don't forget the news section – that's my baby too. So while you dive into the F1 universe and master the card game, know that I've got you covered with style, animations, and the latest hot-off-the-track updates. 🏎️ 🎉",
+  // "technologies": ["React", "Framer Motion", "Bootstrap", "HTML", "CSS"],
+  // "github": "https://github.com/Jake-W95/P1",
+  // "deployed": "https://p1-heroes.netlify.app/",
+  // "bgcolor": "#ffcc33",
+  // "id": "1"
+// },
+
+// {
+  // "title": "Planner",
+  // "image": "./projectImages/planner.png",
+  // "technologies": ["JavaScript", "Moment", "Bootstrap", "HTML", "CSS"],
+  // "description": "Get ready to seize the day with the Daily Planner App – your trusty sidekick for making every hour count. No more forgetting those important appointments or meetings. This app's got your back with a simple and efficient way to track your schedule, especially when you're grinding it out from 9 to 5!\nAnd guess what? The magic doesn't stop there. This app knows the importance of mood lighting – it changes colours based on the time of day. Talk about setting the right vibes, huh? Oh, and here's the kicker – your todos? Yeah, they're not going anywhere. They're safe and sound, ready for you whenever you need 'em. Time to conquer your day! 📝 ✅",
+  // "github": "https://github.com/mdyeates/daily-planner",
+  // "deployed": "https://mdyeates.github.io/daily-planner/",
+  // "bgcolor": "#3e67ff",
+  // "id": "6"
+// }

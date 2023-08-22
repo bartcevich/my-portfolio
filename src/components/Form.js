@@ -67,8 +67,8 @@ const Form = () => {
     setSending(true);
 
     const data = JSON.stringify(formData);
-
-    fetch("https://api.web3forms.com/submit", {
+    //https://api.web3forms.com/submit
+    fetch("", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

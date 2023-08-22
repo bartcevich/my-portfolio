@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/suit.png";
-import Draw from "../../components/Draw";
+//import landingImage from "../../images/suit.png";
+//import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
+
 
 const Landing = ({ name }) => {
   const styles = {
@@ -41,7 +42,7 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing container" style={styles.landing}>
-      <Draw />
+      {/* <Draw /> */}
       <div className="textContainer" style={styles.textContainer}>
         <motion.h1
           className="name"
@@ -62,22 +63,22 @@ const Landing = ({ name }) => {
           <Typewriter
             className="description"
             onInit={(typewriter) => {
-              typewriter.changeDelay(50).typeString("Software Engineer").start();
+              typewriter.changeDelay(50).typeString("Frontend developer").start();
             }}
           />
         </motion.div>
       </div>
-      <div className="image-container">
-        <motion.img
-          className="landingImage"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.25 }}
-          transition={{ duration: 3.5, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Michael Yeates"
-        />
-      </div>
+      {/* <div className="image-container"> */}
+        {/* <motion.img */}
+          {/* //className="landingImage" */}
+          {/* //initial={{ opacity: 0 }} */}
+          {/* //animate={{ opacity: 0.25 }} */}
+          {/* //transition={{ duration: 3.5, ease: "easeInOut" }} */}
+          {/* //style={styles.landingImage} */}
+          {/* //src={landingImage} */}
+          {/* //alt="next step" */}
+        {/* /> */}
+      {/* </div> */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, ease: "easeInOut" }}>
         <SocialIcons />
       </motion.div>

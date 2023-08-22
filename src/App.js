@@ -11,18 +11,15 @@ import PageNotFound from "./pages/404/PageNotFound";
 
 function App() {
   const personalDetails = {
-    name: "Michael Yeates",
-    location: "United Kingdom",
-    email: "michael-yeates@outlook.com",
+    name: "Andrei Bartsevich",
+    location: "Montenegro",
+    email: "bartsevich.engir@gmail.com",
     availability: "Not Available",
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "My main goal is to continue to develop and strengthen my developer skills, this is facilitated by my natural perseverance, the ability to concentrate on my goal and a well–developed ability to self-organize.",
   };
-
   const location = useLocation();
-
   const [showLoader, setShowLoader] = useState(true);
-
   return (
     <>
       {showLoader ? (
@@ -50,8 +47,9 @@ function App() {
               element={
                 <Contact
                   name={personalDetails.name}
-                  location={personalDetails.location}
                   email={personalDetails.email}
+                  location={personalDetails.location}
+                  
                 />
               }
             />

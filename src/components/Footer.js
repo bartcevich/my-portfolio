@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <SocialIcons />
-      <p> ✨ Built by Michael Yeates</p>
+      {/* <p> ✨ Built by </p> */}
       <p>&copy; {currentYear}</p>
     </footer>
   );
